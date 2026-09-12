@@ -1,9 +1,9 @@
-public class Usuarios {
+public class Usuario {
     private String Nome;
     private String CPF;
     private String Email;
 
-    public Usuarios(String Nome, String CPF, String Email) {
+    public Usuario(String Nome, String CPF, String Email) {
         this.Nome = Nome;
         this.CPF = CPF;
         this.Email = Email;
@@ -20,10 +20,24 @@ public class Usuarios {
     public String getEmail() {
         return Email;
     }
+
+    
     
 
+public void setNome(String nome) {
+        Nome = nome;
+    }
+
+    public void setCPF(String cPF) {
+        CPF = cPF;
+    }
+
+    public void setEmail(String email) {
+        Email = email;
+    }
+
 public void apresentarUsuario() {
-        System.out.println("Apresentando usuário:");
+        System.out.println("Apresentando Usuário:");
         System.out.println("---------------------");
         System.out.println("Nome: " + Nome);
         System.out.println("CPF: " + CPF);
