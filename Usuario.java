@@ -37,7 +37,6 @@ public void setNome(String nome) {
     }
 
 public void apresentarUsuario() {
-        System.out.println("Apresentando Usuário:");
         System.out.println("---------------------");
         System.out.println("Nome: " + Nome);
         System.out.println("CPF: " + CPF);
