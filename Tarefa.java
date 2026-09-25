@@ -8,7 +8,7 @@ public class Tarefa {
         this.titulo = titulo;
         this.descricao = descricao;
         this.responsavel = responsavel;
-        this.concluida = false;
+        this.concluida = false; //toda tarefa comeca com false pois assim no sistema ela vai nascer pendente 
 
     }
 
